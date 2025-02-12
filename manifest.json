@@ -1,0 +1,16 @@
+{
+    "name": "News Sentiment Analyser",
+    "version": "1.0.0",
+    "description": "This is an extension to predict stocks based on recent news",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["http://127.0.0.1:5000/*"], 
+    "manifest_version": 3,
+    "author": "junthye cheryl",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "News Sentiment Analyser"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
